@@ -9,7 +9,9 @@ This module handles:
 """
 
 from .time_series_analyzer import TimeSeriesAnalyzer
+from .trend_visualizer import TrendVisualizer
+from .trend_analysis_module import TrendAnalysisModule
 from .trend_detector import TrendDetector
 from .seasonal_analyzer import SeasonalAnalyzer
 
-__all__ = ['TimeSeriesAnalyzer', 'TrendDetector', 'SeasonalAnalyzer'] 
+__all__ = ['TimeSeriesAnalyzer', 'TrendVisualizer', 'TrendAnalysisModule', 'TrendDetector', 'SeasonalAnalyzer'] 
