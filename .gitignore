@@ -151,6 +151,7 @@ Desktop.ini
 *.xlsx
 *.xls
 data/
+!data/excel/Mental_Health_Mood_Tracker_Sample_Data.xlsx
 logs/
 output/
 
